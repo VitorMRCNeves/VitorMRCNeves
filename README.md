@@ -1,6 +1,6 @@
 # 👋 Olá! Eu sou o Vitor Neves
 
-🎯 **Analytics Engineer** em transição para **Cientista de Dados**  
+🎯 **Analytics Engineer** com interesse em me tornar **Cientista de Dados**  
 📍 Belo Horizonte, MG | 🌐 [LinkedIn](https://www.linkedin.com/in/vitormanuelneves) | ✉️ vitormrcnvs@gmail.com  
 🔭 Atualmente criando soluções de dados na **One Investimentos**
 
@@ -8,7 +8,7 @@
 
 ## 🚀 Sobre mim
 
-Sou um profissional apaixonado por dados, com formação em **Economia pelo IBMEC** e sólida experiência prática em **engenharia de dados**, **ciência de dados** e **desenvolvimento de aplicações orientadas a dados**. Tenho trabalhado na construção de pipelines, automação de processos, modelagem de dados e criação de dashboards que apoiam a tomada de decisão estratégica.
+Sou um profissional apaixonado por dados, com formação em **Economia pelo IBMEC** e sólida experiência prática em **engenharia de dados**, **ciência de dados** e **desenvolvimento de produtos de dados**. Tenho trabalhado na construção de pipelines, automação de processos, modelagem de dados e criação de dashboards que apoiam a tomada de decisão estratégica.
 
 Atualmente atuo como **Analytics Engineer**, mas estou em transição ativa para o papel de **Cientista de Dados**, com foco em aplicar técnicas de **Machine Learning**, **modelagem estatística** e **análise preditiva** para resolver problemas reais de negócios.
 
