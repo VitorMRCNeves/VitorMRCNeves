@@ -1,9 +1,7 @@
 # 👋 Olá! Eu sou o Vitor Neves
 
-🎯 **Analytics Engineer** com interesse em me tornar **Cientista de Dados**  
-📍 Belo Horizonte, MG | 🌐 [LinkedIn](https://www.linkedin.com/in/vitormanuelneves) | ✉️ vitormrcnvs@gmail.com  
-🔭 Atualmente criando soluções de dados na **One Investimentos**
-
+🎯 **Analytics Engineer** 
+📍 Belo Horizonte, MG | 🌐 [LinkedIn](https://www.linkedin.com/in/vitormanuelneves) | ✉️ vitormrcnvs@gmail.com
 ---
 
 ## 🚀 Sobre mim
@@ -23,55 +21,5 @@ Atualmente atuo como **Analytics Engineer**, mas estou em transição ativa para
 - **Visualização de Dados:** Power BI  
 - **Outros:** Git, APIs RESTful, Web Scraping, Scrum
 
----
-
-## 💼 Experiência Profissional
-
-### 🔹 One Investimentos | Analytics Engineer
-*Jun 2024 – Atual*  
-- Desenvolvimento de pipelines de dados com **Airflow** e **Docker**
-- Criação de aplicações web orientadas a dados em **Python**
-- Processamento em nuvem com **AWS**
-- Automação de processos usando **Kubernetes**
-
-### 🔹 Partner Bank | Data Analyst
-*Nov 2023 – Jun 2024*  
-- ETL e limpeza de dados com **Python** e **SQL**
-- Aplicação de **Machine Learning** para enriquecimento de dados
-- Dashboards interativos com **Power BI**
-- Web scraping para geração de leads
-
----
-
-## 📚 Formação
-
-🎓 **Bacharelado em Economia** – IBMEC Belo Horizonte  
-*Fev 2021 – Nov 2024*  
-Média Global: 8.5 / 10.0
-
----
-
-## 🌱 Projetos e Contribuições
-
-Confira meus projetos públicos aqui no GitHub! Muitos deles envolvem:
-- **Modelos de Machine Learning aplicados a dados reais**
-- **Pipelines ETL com Python**
-- **Web scraping com automação**
-- **Análises exploratórias e preditivas**
-
-Estou sempre em busca de novos desafios e colaborações open-source na área de dados.  
-Fique à vontade para explorar meus repositórios, contribuir ou entrar em contato!
-
----
-
-## 🤝 Vamos nos conectar?
-
-- 🌐 [LinkedIn](https://www.linkedin.com/in/vitormanuelneves)
-- 📬 vitormrcnvs@gmail.com
-- 📊 [GitHub Projects](https://github.com/VitorMRCNeves)
-
----
-
-> “Transformar dados em decisões é mais do que uma habilidade técnica — é uma arte baseada em curiosidade, análise e impacto.”
 
 
