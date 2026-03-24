@@ -31,19 +31,19 @@
 
 ```python
 vitor = {
-    "role"       : "AI Engineer | Data Scientist",
+    "role"       : "AI Engineer | Data Engineer",
     "background" : "Economics (IBMEC) + Data Engineering",
     "location"   : "Belo Horizonte, MG 🇧🇷",
-    "focus"      : ["LLMs", "ML Pipelines", "RAG Systems", "MLOps"],
+    "focus"      : ["LLMs", "Pipelines", "RAG Systems", "DataOps"],
     "transition" : "Analytics Engineering → AI Engineering",
     "goal"       : "Build production-grade AI systems that solve real business problems",
-    "learning"   : ["LangChain", "LlamaIndex", "Vector DBs", "Fine-tuning LLMs"],
+    "learning"   : ["LangGraph", "PydanticAI", "Vector DBs", "Fine-tuning LLMs"],
 }
 ```
 
 I’m a data professional with a background in **Economics** and hands-on experience in **data engineering**, **machine learning**, and **AI product development**. I’m passionate about closing the gap between data pipelines and intelligent systems — building end-to-end solutions from raw ingestion to deployed AI features.
 
-Currently focused on **AI Engineering**: designing RAG architectures, orchestrating LLM workflows, and building ML pipelines that scale.
+Currently focused on **AI Engineering**: designing RAG architectures and orchestrating LLM workflows.
 
 -----
 
@@ -89,64 +89,95 @@ Currently focused on **AI Engineering**: designing RAG architectures, orchestrat
 
 -----
 
-## 🚀 Featured Projects
-
+🚀 Featured Projects
 <table>
   <tr>
     <td width="50%">
-      <h3>🤖 RAG Pipeline with LangChain</h3>
-      <p>End-to-end Retrieval-Augmented Generation system using OpenAI + ChromaDB + Airflow for automated ingestion and querying over business documents.</p>
+      <h3>🏥 Medical Anamnese API</h3>
+      <p>API de produção que recebe áudio médico criptografado (AES-256-GCM), transcreve via LLM e estrutura dados de anamnese em JSON dinâmico via Pydantic AI — com orquestração de 3 agentes especializados e prompts versionados em YAML.</p>
       <p>
-        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Gemini-412991?style=flat&logo=google&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Pydantic_AI-E92063?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/AES--256--GCM-232F3E?style=flat&logo=amazonaws&logoColor=white"/>
       </p>
-      <a href="https://github.com/VitorMRCNeves">
+      <a href="https://github.com/VitorMRCNeves/Medical-Anamnese-API">
         <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
     <td width="50%">
-      <h3>📊 ML Pipeline: Predictive Analytics</h3>
-      <p>Modular ML pipeline with feature engineering, model training, experiment tracking with MLflow and automated retraining via Airflow DAGs.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-      </p>
-      <a href="https://github.com/VitorMRCNeves">
-        <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🏗️ Modern Data Stack (ELT)</h3>
-      <p>Full ELT architecture with Airflow orchestration, dbt transformations, PostgreSQL warehouse and Power BI dashboards on top of Brazilian public data.</p>
+      <h3>📊 FundosRAG CVM <img src="https://img.shields.io/badge/Em_Desenvolvimento-FF6B35?style=flat&logoColor=white"/></h3>
+      <p>Sistema end-to-end que ingere automaticamente regulamentos de fundos de investimento da CVM, processa PDFs com pipeline híbrido (pdfplumber + ColPali multimodal) e disponibiliza via chatbot RAG com avaliação automática de qualidade via RAGAS.</p>
       <p>
         <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white"/>
-        <img src="https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ColPali-7C3AED?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Qdrant-DC143C?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/RAGAS-16A34A?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Langfuse-0D9488?style=flat&logoColor=white"/>
       </p>
-      <a href="https://github.com/VitorMRCNeves">
-        <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td width="50%">
-      <h3>☁️ Serverless Data Lake on AWS</h3>
-      <p>Scalable data lake using AWS S3, EC2 and Lambda for event-driven ingestion. Includes partitioned storage, schema versioning and cost-optimized querying.</p>
-      <p>
-        <img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazons3&logoColor=white"/>
-        <img src="https://img.shields.io/badge/AWS_EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-      </p>
-      <a href="https://github.com/VitorMRCNeves">
+      <a href="https://github.com/VitorMRCNeves/FundosRAG-CVM">
         <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
   </tr>
 </table>
 
------
+## 🌱 Currently Building
+
+<div align="center">
+
+<table>
+<tr>
+<td>
+
+### 📊 FundosRAG CVM &nbsp; ![Status](https://img.shields.io/badge/Em_Desenvolvimento-FF6B35?style=flat&logoColor=white)
+
+**Sistema end-to-end de RAG sobre regulamentos de fundos de investimento da CVM**
+
+| | |
+|---|---|
+| **Problema** | +21.000 fundos registrados na CVM, ~50.000 PDFs de regulamentos públicos — impossível consultar manualmente |
+| **Solução** | Pipeline que ingere, processa com IA e responde em linguagem natural com citação da cláusula exata |
+
+**Arquitetura em 5 camadas:**
+
+```
+CVM API (dados.cvm.gov.br)
+    └── Airflow DAG (ingestão diária)
+            └── PDF Router
+                    ├── pdfplumber      → texto corrido
+                    └── ColPali         → tabelas e gráficos financeiros
+                            └── Qdrant  (vector store multimodal)
+                            └── PostgreSQL (metadados estruturados)
+                                    └── Gemini + FastAPI + JWT
+                                            └── Chatbot RAG
+                                            └── RAGAS + Langfuse (quality gate)
+```
+
+**Roadmap:**
+
+- 🔄 &nbsp; **Fase 1** — Ingestão CVM + RAG textual + API &nbsp; `em progresso`
+- ⏳ &nbsp; **Fase 2** — Pipeline multimodal com ColPali &nbsp; `planejado`
+- ⏳ &nbsp; **Fase 3** — MCP Server + Observabilidade total &nbsp; `planejado`
+
+**Stack:**
+
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![ColPali](https://img.shields.io/badge/ColPali-7C3AED?style=flat&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC143C?style=flat&logoColor=white)
+![RAGAS](https://img.shields.io/badge/RAGAS-16A34A?style=flat&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-0D9488?style=flat&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=google&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ## 📈 GitHub Stats
 
@@ -158,19 +189,6 @@ Currently focused on **AI Engineering**: designing RAG architectures, orchestrat
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=VitorMRCNeves&theme=tokyonight&hide_border=true" />
 </div>
-
------
-
-## 🌱 Currently Building
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🔭  AI Agents with LangGraph for automated data analysis   │
-│  📚  Fine-tuning small LLMs for domain-specific tasks       │
-│  🛠️  MLOps best practices: CI/CD for ML with GitHub Actions │
-│  📖  Studying: Andrej Karpathy's Neural Networks course     │
-└─────────────────────────────────────────────────────────────┘
-```
 
 -----
 
