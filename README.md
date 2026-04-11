@@ -91,7 +91,7 @@ Currently focused on **AI Engineering**: designing RAG architectures and orchest
 🚀 Featured Projects
 <table>
   <tr>
-    <td width="50%">
+    <td width="33%">
       <h3>🏥 Medical Anamnese API</h3>
       <p>API de produção que recebe áudio médico criptografado (AES-256-GCM), transcreve via LLM e estrutura dados de anamnese em JSON dinâmico via Pydantic AI — com orquestração de 3 agentes especializados e prompts versionados em YAML.</p>
       <p>
@@ -104,7 +104,7 @@ Currently focused on **AI Engineering**: designing RAG architectures and orchest
         <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
-    <td width="50%">
+    <td width="33%">
       <h3>📊 FundosRAG CVM <img src="https://img.shields.io/badge/Em_Desenvolvimento-FF6B35?style=flat&logoColor=white"/></h3>
       <p>Sistema end-to-end que ingere automaticamente regulamentos de fundos de investimento da CVM, processa PDFs com pipeline híbrido (pdfplumber + ColPali multimodal) e disponibiliza via chatbot RAG com avaliação automática de qualidade via RAGAS.</p>
       <p>
@@ -118,17 +118,15 @@ Currently focused on **AI Engineering**: designing RAG architectures and orchest
         <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
-    <td width="50%">
+    <td width="33%">
       <h3>Code Klonwledge Graph </h3>
       <p>A AST tree parser joined with a local embedding model, to generate a high-level knowledge, to help AI Agents work in complex codebases, understanding the downstream affects of their changes</p>
       <p>
-        <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ColPali-7C3AED?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Ollama-7C3AED?style=flat&logoColor=white"/>
         <img src="https://img.shields.io/badge/Qdrant-DC143C?style=flat&logoColor=white"/>
-        <img src="https://img.shields.io/badge/RAGAS-16A34A?style=flat&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Langfuse-0D9488?style=flat&logoColor=white"/>
       </p>
-      <a href="https://github.com/VitorMRCNeves/FundosRAG-CVM">
+      <a href="https://github.com/VitorMRCNeves/Code-Knowledge-Graph">
         <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
