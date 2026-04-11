@@ -17,7 +17,6 @@
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <img src="https://img.shields.io/badge/📍_Belo_Horizonte,_MG-222222?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Open_to_Work-00C853?style=for-the-badge&logo=checkmarx&logoColor=white" />
 
 <br/><br/>
 
@@ -108,6 +107,20 @@ Currently focused on **AI Engineering**: designing RAG architectures and orchest
     <td width="50%">
       <h3>📊 FundosRAG CVM <img src="https://img.shields.io/badge/Em_Desenvolvimento-FF6B35?style=flat&logoColor=white"/></h3>
       <p>Sistema end-to-end que ingere automaticamente regulamentos de fundos de investimento da CVM, processa PDFs com pipeline híbrido (pdfplumber + ColPali multimodal) e disponibiliza via chatbot RAG com avaliação automática de qualidade via RAGAS.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ColPali-7C3AED?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Qdrant-DC143C?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/RAGAS-16A34A?style=flat&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Langfuse-0D9488?style=flat&logoColor=white"/>
+      </p>
+      <a href="https://github.com/VitorMRCNeves/FundosRAG-CVM">
+        <img src="https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+    <td width="50%">
+      <h3>Code Klonwledge Graph </h3>
+      <p>A AST tree parser joined with a local embedding model, to generate a high-level knowledge, to help AI Agents work in complex codebases, understanding the downstream affects of their changes</p>
       <p>
         <img src="https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white"/>
         <img src="https://img.shields.io/badge/ColPali-7C3AED?style=flat&logoColor=white"/>
